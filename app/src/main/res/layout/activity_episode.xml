@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view_episode"/>
+
+    <TextView
+        android:id="@+id/text_view_episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_view_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_episode"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

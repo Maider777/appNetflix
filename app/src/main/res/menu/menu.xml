@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/Pais"
+        android:title="Country">
+        <menu>
+            <group android:id="@+id/paises">
+                <item android:id="@+id/unitedStates"
+                    android:title="United States" />
+                <item android:id="@+id/canada"
+                    android:title="Canada"/>
+                <item android:id="@+id/japan"
+                    android:title="Japan"/>
+                <item android:id="@+id/unitedKingdom"
+                    android:title="United Kingdom"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Genero"
+        android:title="Genre">
+        <menu>
+            <group android:id="@+id/generos">
+                <item android:id="@+id/drama"
+                    android:title="Drama"/>
+                <item android:id="@+id/scienceFiction"
+                    android:title="Science-Fiction"/>
+                <item android:id="@+id/thriller"
+                    android:title="Thriller"/>
+                <item android:id="@+id/action"
+                    android:title="Action"/>
+                <item android:id="@+id/crime"
+                    android:title="Crime"/>
+                <item android:id="@+id/horror"
+                    android:title="Horror"/>
+                <item android:id="@+id/romance"
+                    android:title="Romance"/>
+                <item android:id="@+id/adventure"
+                    android:title="Adventure"/>
+                <item android:id="@+id/espionage"
+                    android:title="Espionage"/>
+                <item android:id="@+id/music"
+                    android:title="Music"/>
+                <item android:id="@+id/mystery"
+                    android:title="Mystery"/>
+                <item android:id="@+id/supernatural"
+                    android:title="Supernatural"/>
+                <item android:id="@+id/fantasy"
+                    android:title="Fantasy"/>
+                <item android:id="@+id/family"
+                    android:title="Family"/>
+                <item android:id="@+id/anime"
+                    android:title="Anime"/>
+                <item android:id="@+id/comedy"
+                    android:title="Comedy"/>
+                <item android:id="@+id/history"
+                    android:title="History"/>
+                <item android:id="@+id/medical"
+                    android:title="Medical"/>
+                <item android:id="@+id/legal"
+                    android:title="Legal"/>
+                <item android:id="@+id/western"
+                    android:title="Western"/>
+                <item android:id="@+id/war"
+                    android:title="War"/>
+                <item android:id="@+id/sports"
+                    android:title="Sports"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
